@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-form{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-box{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-box{
+    min-height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #007DEB;
+}
+  
+  .login-form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #007DEB;
+    width: 373px;
+
+        /* Resto de tus estilos */
+      
+        display: flex;
+        flex-direction: column; /* Cambia a column para alinear verticalmente */
+        align-items: center; /* Centrar elementos horizontalmente */
+      }
+
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 40px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #E1EEF9;
+    border-radius: 20px;
+     /* Cambia el valor para ajustar la curvatura */
+  }
+  
+  .forgot-password-link {
+    display: block;
+    margin-top: 10px;
+    text-align: right;
+    color: #007DEB;
+    text-decoration: none;
+  }
+  
+
+.login-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; 
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+.circle-top{
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+  
+.circle-bottom{
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+}
+
+  
+  /* LoginForm.css */
+
+.registration-link {
+    margin-top: 10px; /* Ajusta el margen superior según sea necesario */
+    text-align: center; /* Centrar el enlace en el contenedor */
+
+    margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+    text-align: center;
+  }
+
+  
+
+
+
+
+  .registration-link a {
+    color: #007bff; /* Color de enlace azul */
+    text-decoration: none; /* Quitar subrayado del enlace */
+  }
+  
+  
